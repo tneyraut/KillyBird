@@ -1,0 +1,15 @@
+"BACKGROUND_IMAGE_1" = "fond1.png";
+"BACKGROUND_IMAGE_2" = "fond2.png";
+"BACKGROUND_IMAGE_3" = "fond3.png";
+"BACKGROUND_IMAGE_4" = "fond4.png";
+"BACKGROUND_IMAGE_5" = "fond5.png";
+"BACKGROUND_IMAGE_6" = "fond6.png";
+
+"ICON_COEUR" = "coeur.png";
+
+"DUCK_DROITE_GAUCHE" = "cibleDG.png";
+"DUCK_GAUCHE_DROITE" = "cibleGD.png";
+
+"ICON_RETICULE" = "reticule.png";
+
+"ICON_SCORE" = "score.png";

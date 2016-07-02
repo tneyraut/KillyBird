@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E896BFE71D251FA000C0E7B3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E896BFE61D251FA000C0E7B3 /* Localizable.strings */; };
+		E896BFE91D25208A00C0E7B3 /* ImageViewWithLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E896BFE81D25208A00C0E7B3 /* ImageViewWithLabel.swift */; };
+		E896BFEB1D25230C00C0E7B3 /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E896BFEA1D25230C00C0E7B3 /* Duck.swift */; };
+		E8A7B4961D241E66005978EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A7B4951D241E66005978EF /* AppDelegate.swift */; };
+		E8A7B49B1D241E66005978EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8A7B4991D241E66005978EF /* Main.storyboard */; };
+		E8A7B49E1D241E66005978EF /* KillyBird.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8A7B49C1D241E66005978EF /* KillyBird.xcdatamodeld */; };
+		E8A7B4A01D241E66005978EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8A7B49F1D241E66005978EF /* Assets.xcassets */; };
+		E8A7B4A31D241E66005978EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8A7B4A11D241E66005978EF /* LaunchScreen.storyboard */; };
+		E8A7B4AE1D241E66005978EF /* KillyBirdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A7B4AD1D241E66005978EF /* KillyBirdTests.swift */; };
+		E8A7B4B91D241E66005978EF /* KillyBirdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A7B4B81D241E66005978EF /* KillyBirdUITests.swift */; };
+		E8A7B4C71D241EC9005978EF /* AccueilTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A7B4C61D241EC9005978EF /* AccueilTableViewController.swift */; };
+		E8A7B4C91D241F23005978EF /* TableViewCellWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A7B4C81D241F23005978EF /* TableViewCellWithImage.swift */; };
+		E8A7B4CB1D242205005978EF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A7B4CA1D242205005978EF /* GameViewController.swift */; };
+		E8A7B4CD1D2423CE005978EF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A7B4CC1D2423CE005978EF /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8A7B4AA1D241E66005978EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8A7B48A1D241E66005978EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8A7B4911D241E66005978EF;
+			remoteInfo = KillyBird;
+		};
+		E8A7B4B51D241E66005978EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8A7B48A1D241E66005978EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8A7B4911D241E66005978EF;
+			remoteInfo = KillyBird;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E882E7691D2590EA0063D5F4 /* Mad World.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mad World.m4a"; sourceTree = "<group>"; };
+		E896BFE61D251FA000C0E7B3 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		E896BFE81D25208A00C0E7B3 /* ImageViewWithLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewWithLabel.swift; sourceTree = "<group>"; };
+		E896BFEA1D25230C00C0E7B3 /* Duck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
+		E8A7B4921D241E66005978EF /* KillyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KillyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A7B4951D241E66005978EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8A7B49A1D241E66005978EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8A7B49D1D241E66005978EF /* KillyBird.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KillyBird.xcdatamodel; sourceTree = "<group>"; };
+		E8A7B49F1D241E66005978EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8A7B4A21D241E66005978EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8A7B4A41D241E66005978EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8A7B4A91D241E66005978EF /* KillyBirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KillyBirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A7B4AD1D241E66005978EF /* KillyBirdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillyBirdTests.swift; sourceTree = "<group>"; };
+		E8A7B4AF1D241E66005978EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8A7B4B41D241E66005978EF /* KillyBirdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KillyBirdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A7B4B81D241E66005978EF /* KillyBirdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillyBirdUITests.swift; sourceTree = "<group>"; };
+		E8A7B4BA1D241E66005978EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8A7B4C61D241EC9005978EF /* AccueilTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccueilTableViewController.swift; sourceTree = "<group>"; };
+		E8A7B4C81D241F23005978EF /* TableViewCellWithImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellWithImage.swift; sourceTree = "<group>"; };
+		E8A7B4CA1D242205005978EF /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E8A7B4CC1D2423CE005978EF /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8A7B48F1D241E66005978EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A7B4A61D241E66005978EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A7B4B11D241E66005978EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8A7B4891D241E65005978EF = {
+			isa = PBXGroup;
+			children = (
+				E8A7B4941D241E66005978EF /* KillyBird */,
+				E8A7B4AC1D241E66005978EF /* KillyBirdTests */,
+				E8A7B4B71D241E66005978EF /* KillyBirdUITests */,
+				E8A7B4931D241E66005978EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8A7B4931D241E66005978EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8A7B4921D241E66005978EF /* KillyBird.app */,
+				E8A7B4A91D241E66005978EF /* KillyBirdTests.xctest */,
+				E8A7B4B41D241E66005978EF /* KillyBirdUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8A7B4941D241E66005978EF /* KillyBird */ = {
+			isa = PBXGroup;
+			children = (
+				E8A7B4951D241E66005978EF /* AppDelegate.swift */,
+				E8A7B4C61D241EC9005978EF /* AccueilTableViewController.swift */,
+				E8A7B4CC1D2423CE005978EF /* SettingsViewController.swift */,
+				E8A7B4CA1D242205005978EF /* GameViewController.swift */,
+				E896BFEA1D25230C00C0E7B3 /* Duck.swift */,
+				E896BFE81D25208A00C0E7B3 /* ImageViewWithLabel.swift */,
+				E8A7B4C81D241F23005978EF /* TableViewCellWithImage.swift */,
+				E896BFE61D251FA000C0E7B3 /* Localizable.strings */,
+				E8A7B4991D241E66005978EF /* Main.storyboard */,
+				E8A7B49F1D241E66005978EF /* Assets.xcassets */,
+				E8A7B4A11D241E66005978EF /* LaunchScreen.storyboard */,
+				E8A7B4A41D241E66005978EF /* Info.plist */,
+				E8A7B49C1D241E66005978EF /* KillyBird.xcdatamodeld */,
+				E882E7691D2590EA0063D5F4 /* Mad World.m4a */,
+			);
+			path = KillyBird;
+			sourceTree = "<group>";
+		};
+		E8A7B4AC1D241E66005978EF /* KillyBirdTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8A7B4AD1D241E66005978EF /* KillyBirdTests.swift */,
+				E8A7B4AF1D241E66005978EF /* Info.plist */,
+			);
+			path = KillyBirdTests;
+			sourceTree = "<group>";
+		};
+		E8A7B4B71D241E66005978EF /* KillyBirdUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E8A7B4B81D241E66005978EF /* KillyBirdUITests.swift */,
+				E8A7B4BA1D241E66005978EF /* Info.plist */,
+			);
+			path = KillyBirdUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8A7B4911D241E66005978EF /* KillyBird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8A7B4BD1D241E66005978EF /* Build configuration list for PBXNativeTarget "KillyBird" */;
+			buildPhases = (
+				E8A7B48E1D241E66005978EF /* Sources */,
+				E8A7B48F1D241E66005978EF /* Frameworks */,
+				E8A7B4901D241E66005978EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KillyBird;
+			productName = KillyBird;
+			productReference = E8A7B4921D241E66005978EF /* KillyBird.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8A7B4A81D241E66005978EF /* KillyBirdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8A7B4C01D241E66005978EF /* Build configuration list for PBXNativeTarget "KillyBirdTests" */;
+			buildPhases = (
+				E8A7B4A51D241E66005978EF /* Sources */,
+				E8A7B4A61D241E66005978EF /* Frameworks */,
+				E8A7B4A71D241E66005978EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8A7B4AB1D241E66005978EF /* PBXTargetDependency */,
+			);
+			name = KillyBirdTests;
+			productName = KillyBirdTests;
+			productReference = E8A7B4A91D241E66005978EF /* KillyBirdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8A7B4B31D241E66005978EF /* KillyBirdUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8A7B4C31D241E66005978EF /* Build configuration list for PBXNativeTarget "KillyBirdUITests" */;
+			buildPhases = (
+				E8A7B4B01D241E66005978EF /* Sources */,
+				E8A7B4B11D241E66005978EF /* Frameworks */,
+				E8A7B4B21D241E66005978EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8A7B4B61D241E66005978EF /* PBXTargetDependency */,
+			);
+			name = KillyBirdUITests;
+			productName = KillyBirdUITests;
+			productReference = E8A7B4B41D241E66005978EF /* KillyBirdUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8A7B48A1D241E66005978EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ThomasNeyraut;
+				TargetAttributes = {
+					E8A7B4911D241E66005978EF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E8A7B4A81D241E66005978EF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E8A7B4911D241E66005978EF;
+					};
+					E8A7B4B31D241E66005978EF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E8A7B4911D241E66005978EF;
+					};
+				};
+			};
+			buildConfigurationList = E8A7B48D1D241E66005978EF /* Build configuration list for PBXProject "KillyBird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8A7B4891D241E65005978EF;
+			productRefGroup = E8A7B4931D241E66005978EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8A7B4911D241E66005978EF /* KillyBird */,
+				E8A7B4A81D241E66005978EF /* KillyBirdTests */,
+				E8A7B4B31D241E66005978EF /* KillyBirdUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8A7B4901D241E66005978EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A7B4A31D241E66005978EF /* LaunchScreen.storyboard in Resources */,
+				E896BFE71D251FA000C0E7B3 /* Localizable.strings in Resources */,
+				E8A7B4A01D241E66005978EF /* Assets.xcassets in Resources */,
+				E8A7B49B1D241E66005978EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A7B4A71D241E66005978EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A7B4B21D241E66005978EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8A7B48E1D241E66005978EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E896BFE91D25208A00C0E7B3 /* ImageViewWithLabel.swift in Sources */,
+				E8A7B4CB1D242205005978EF /* GameViewController.swift in Sources */,
+				E8A7B4C71D241EC9005978EF /* AccueilTableViewController.swift in Sources */,
+				E8A7B4C91D241F23005978EF /* TableViewCellWithImage.swift in Sources */,
+				E896BFEB1D25230C00C0E7B3 /* Duck.swift in Sources */,
+				E8A7B49E1D241E66005978EF /* KillyBird.xcdatamodeld in Sources */,
+				E8A7B4961D241E66005978EF /* AppDelegate.swift in Sources */,
+				E8A7B4CD1D2423CE005978EF /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A7B4A51D241E66005978EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A7B4AE1D241E66005978EF /* KillyBirdTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A7B4B01D241E66005978EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8A7B4B91D241E66005978EF /* KillyBirdUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8A7B4AB1D241E66005978EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8A7B4911D241E66005978EF /* KillyBird */;
+			targetProxy = E8A7B4AA1D241E66005978EF /* PBXContainerItemProxy */;
+		};
+		E8A7B4B61D241E66005978EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8A7B4911D241E66005978EF /* KillyBird */;
+			targetProxy = E8A7B4B51D241E66005978EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8A7B4991D241E66005978EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8A7B49A1D241E66005978EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8A7B4A11D241E66005978EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8A7B4A21D241E66005978EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8A7B4BB1D241E66005978EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8A7B4BC1D241E66005978EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8A7B4BE1D241E66005978EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KillyBird/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThomasNeyraut.iOS.KillyBird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E8A7B4BF1D241E66005978EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KillyBird/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThomasNeyraut.iOS.KillyBird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E8A7B4C11D241E66005978EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KillyBirdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThomasNeyraut.iOS.KillyBirdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KillyBird.app/KillyBird";
+			};
+			name = Debug;
+		};
+		E8A7B4C21D241E66005978EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KillyBirdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThomasNeyraut.iOS.KillyBirdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KillyBird.app/KillyBird";
+			};
+			name = Release;
+		};
+		E8A7B4C41D241E66005978EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KillyBirdUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThomasNeyraut.iOS.KillyBirdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KillyBird;
+			};
+			name = Debug;
+		};
+		E8A7B4C51D241E66005978EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KillyBirdUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ThomasNeyraut.iOS.KillyBirdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KillyBird;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8A7B48D1D241E66005978EF /* Build configuration list for PBXProject "KillyBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8A7B4BB1D241E66005978EF /* Debug */,
+				E8A7B4BC1D241E66005978EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8A7B4BD1D241E66005978EF /* Build configuration list for PBXNativeTarget "KillyBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8A7B4BE1D241E66005978EF /* Debug */,
+				E8A7B4BF1D241E66005978EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8A7B4C01D241E66005978EF /* Build configuration list for PBXNativeTarget "KillyBirdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8A7B4C11D241E66005978EF /* Debug */,
+				E8A7B4C21D241E66005978EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8A7B4C31D241E66005978EF /* Build configuration list for PBXNativeTarget "KillyBirdUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8A7B4C41D241E66005978EF /* Debug */,
+				E8A7B4C51D241E66005978EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E8A7B49C1D241E66005978EF /* KillyBird.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E8A7B49D1D241E66005978EF /* KillyBird.xcdatamodel */,
+			);
+			currentVersion = E8A7B49D1D241E66005978EF /* KillyBird.xcdatamodel */;
+			path = KillyBird.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E8A7B48A1D241E66005978EF /* Project object */;
+}

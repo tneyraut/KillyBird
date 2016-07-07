@@ -24,6 +24,13 @@ class AccueilTableViewController: UITableViewController {
         
         self.title = "Killy Bird : Menu Principal"
         
+        self.backgroundImageNumber = self.sauvegarde.integerForKey("BackgroundImageNumber")
+        if (self.backgroundImageNumber == 0)
+        {
+            self.backgroundImageNumber = 1
+            self.sauvegarde.setInteger(1, forKey:"BackgroundImageNumber")
+        }
+        
         let shadow = NSShadow()
         shadow.shadowColor = UIColor(red:0.0, green:0.0, blue:0.0, alpha:0.8)
         shadow.shadowOffset = CGSizeMake(0, 1)
@@ -51,6 +58,9 @@ class AccueilTableViewController: UITableViewController {
     }
     
     override func viewDidAppear(animated: Bool) {
+        self.sauvegarde.setInteger(self.backgroundImageNumber, forKey:"BackgroundImageNumber")
+        self.sauvegarde.synchronize()
+        
         self.navigationController?.setNavigationBarHidden(false, animated:true)
         
         self.navigationController?.setToolbarHidden(false, animated:true)

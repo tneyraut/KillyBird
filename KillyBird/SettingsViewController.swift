@@ -10,7 +10,7 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 
-    private var backgroundImageNumber = 1
+    internal var backgroundImageNumber = 1
     
     internal var accueilTableViewController = AccueilTableViewController()
     
@@ -18,6 +18,8 @@ class SettingsViewController: UIViewController {
         super.viewDidLoad()
 
         self.title = "Killy Bird : Settings"
+        
+        self.backgroundImageNumber = self.accueilTableViewController.backgroundImageNumber
         
         self.view.backgroundColor = UIColor(patternImage:UIImage(named:NSLocalizedString("BACKGROUND_IMAGE_" + String(self.backgroundImageNumber), comment:""))!)
         

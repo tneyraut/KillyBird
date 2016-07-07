@@ -11,8 +11,6 @@ import CoreMotion
 import CoreLocation
 
 class GameViewController: UIViewController {
-
-    // problème plus de canard....
     
     internal var accueilTableViewController = AccueilTableViewController()
     

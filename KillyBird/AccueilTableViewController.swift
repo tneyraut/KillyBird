@@ -113,7 +113,10 @@ class AccueilTableViewController: UITableViewController {
         {
             return
         }
-        self.sauvegarde.setInteger(self.sauvegarde.integerForKey("NumberOfScores") + 1, forKey:"NumberOfScores")
+        if (self.sauvegarde.integerForKey("NumberOfScores") < 10)
+        {
+            self.sauvegarde.setInteger(self.sauvegarde.integerForKey("NumberOfScores") + 1, forKey:"NumberOfScores")
+        }
         if (self.getNumberOfItems() == 1)
         {
             self.sauvegarde.setInteger(score, forKey:"Score0")

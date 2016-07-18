@@ -141,6 +141,7 @@ class AccueilTableViewController: UITableViewController {
                 i += 1
             }
         }
+        self.sauvegarde.synchronize()
         self.tableView.reloadData()
     }
 
